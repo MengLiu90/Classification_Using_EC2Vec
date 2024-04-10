@@ -1,4 +1,4 @@
-# Classification_using_EC2Vec
+# Classification_Using_EC2Vec
 Three classification models are provided in this repository:
 
 1. reaction-EC classification model
