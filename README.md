@@ -20,7 +20,7 @@ The embeddings were concatenated together as the input features to the classifie
 Please refer to the data in the ```./Data/``` directory for examples.
 
 ## Model usage
-To run the model, prepare the data following the instructions above and put the data under ```./Data/``` directory.
+To run the classifiers, prepare the data following the instructions above and put the data under ```./Data/``` directory.
 
 Run ```RF_product_EC_classifier.py``` to predict if a product-EC pair exists.
 
