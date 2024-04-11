@@ -23,7 +23,9 @@ Please refer to the data in the ```./Data/``` directory for examples.
 To run the model, prepare the data following the instructions above and put the data under ```./Data/``` directory.
 
 Run ```RF_product_EC_classifier.py``` to predict if a product-EC pair exists.
+
 Run ```RF_reaction_EC_classifier.py``` to predict if a reaction-EC pair exists.
+
 Run ```RF_substrate_EC_classifier.py``` to predict if a substrate-EC pair exists.
 
 
