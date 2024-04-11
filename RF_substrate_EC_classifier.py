@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 
-df = pd.read_csv('embedded_substrates_ECs_data.csv')
+df = pd.read_csv('Data/embedded_substrates_ECs_data.csv')
 X = df.drop(columns=['substrate', 'EC', 'label'])  # Features
 y = df['label']  # Target label
 
@@ -17,10 +17,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 rf_classifier = RandomForestClassifier(n_estimators=200, random_state=42, max_depth=None,
                                        min_samples_leaf=1, min_samples_split=2)
 rf_classifier.fit(X_train, y_train)
-joblib.dump(rf_classifier, 'substrate_ec_classifier_trained_model.pkl')
+joblib.dump(rf_classifier, 'Trained_model/substrate_ec_classifier_trained_model.pkl')
 
 # # load the trained model
-# rf_classifier = joblib.load('substrate_ec_classifier_trained_model.pkl')
+# rf_classifier = joblib.load('Trained_model/substrate_ec_classifier_trained_model.pkl')
 
 # Evaluate the Model
 y_pred = rf_classifier.predict(X_test)

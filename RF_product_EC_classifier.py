@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report
 
 
-df = pd.read_csv('embedded_products_ECs_data.csv')
+df = pd.read_csv('Data/embedded_products_ECs_data.csv')
 X = df.drop(columns=['product', 'EC', 'label'])  # Features
 y = df['label']  # Target label
 
@@ -18,10 +18,10 @@ rf_classifier = RandomForestClassifier(n_estimators=500, random_state=42, max_de
                                        min_samples_leaf=4, min_samples_split=5)
 
 rf_classifier.fit(X_train, y_train)
-joblib.dump(rf_classifier, 'product_ec_classifier_trained_model.pkl')
+joblib.dump(rf_classifier, 'Trained_model/product_ec_classifier_trained_model.pkl')
 
 # # load the trained model
-# rf_classifier = joblib.load('product_ec_classifier_trained_model.pkl')
+# rf_classifier = joblib.load('Trained_model/product_ec_classifier_trained_model.pkl')
 
 # Evaluate the Model
 y_pred = rf_classifier.predict(X_test)
