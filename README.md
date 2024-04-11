@@ -20,13 +20,13 @@ The embeddings were concatenated together as the input features to the classifie
 Please refer to the data in the ```./Data/``` directory for examples.
 
 ## Model usage
-To run the classifiers, prepare the data following the instructions above and put the data under ```./Data/``` directory.
+To execute the classifiers, prepare the data as per the provided instructions and place it within the ```./Data/``` directory.
 
-Run ```RF_product_EC_classifier.py``` to predict if a product-EC pair exists.
+Run ```RF_product_EC_classifier.py``` to obtain performance metrics for predicting the existence of a product-EC pair.
 
-Run ```RF_reaction_EC_classifier.py``` to predict if a reaction-EC pair exists.
+Run ```RF_reaction_EC_classifier.py``` to obtain performance metrics for predicting the existence of a reaction-EC pair.
 
-Run ```RF_substrate_EC_classifier.py``` to predict if a substrate-EC pair exists.
+Run ```RF_substrate_EC_classifier.py``` to obtain performance metrics for predicting the existence of a substrate-EC pair.
 
 
 
