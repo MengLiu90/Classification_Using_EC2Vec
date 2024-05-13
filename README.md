@@ -5,10 +5,9 @@ Three classification models are provided in this repository:
 2. substrate-EC classification model
 3. product-EC classification model
 ## Dependencies
-1. pytorch 1.10.0
-3. numpy 1.19.2
-4. sklearn 0.23.2
-5. pandas 1.1.3
+1. numpy 1.19.2
+2. sklearn 0.23.2
+3. pandas 1.1.3
 
 ## Data preparation
 The molecules of reactions/substrates/products were embedded using mol2vec (https://github.com/samoturk/mol2vec).
