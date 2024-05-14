@@ -20,12 +20,14 @@ Please refer to the data in the ```./Data/``` directory for examples.
 
 ## Model usage
 To execute the classifiers, prepare the data as per the provided instructions and place it within the ```./Data/``` directory.
+The Python scripts ```RF_product_EC_classifier.py```, ```RF_reaction_EC_classifier.py```, and ```RF_substrate_EC_classifier.py``` implement respective classifiers using the train/test split protocol.
+The Python scripts ```RF_product_EC_classifier_5_fold_cv.py```, ```RF_reaction_EC_classifier_5_fold_cv.py```, and ```RF_substrate_EC_classifier_5_fold_cv.py``` implement respective classifiers using the train/test split protocol.
 
-Run ```RF_product_EC_classifier.py``` to obtain performance metrics for predicting the existence of a product-EC pair.
+Run ```RF_product_EC_classifier_5_fold_cv.py``` to obtain performance metrics for predicting the existence of a product-EC pair.
 
-Run ```RF_reaction_EC_classifier.py``` to obtain performance metrics for predicting the existence of a reaction-EC pair.
+Run ```RF_reaction_EC_classifier_5_fold_cv.py``` to obtain performance metrics for predicting the existence of a reaction-EC pair.
 
-Run ```RF_substrate_EC_classifier.py``` to obtain performance metrics for predicting the existence of a substrate-EC pair.
+Run ```RF_substrate_EC_classifier_5_fold_cv.py``` to obtain performance metrics for predicting the existence of a substrate-EC pair.
 
 
 
