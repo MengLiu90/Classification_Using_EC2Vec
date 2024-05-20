@@ -31,7 +31,8 @@ Run ```RF_reaction_EC_classifier_5_fold_cv.py``` to obtain performance metrics f
 
 Run ```RF_substrate_EC_classifier_5_fold_cv.py``` to obtain performance metrics for predicting the existence of a substrate-EC pair.
 
-
+## Note
+As the compounds in the data we used to train the classifier may differ significantly from those in your dataset, and it is simple and efficient to train a Ramdom Forest model, you can directly train your own model with your data and the tained model will be automatically saved in the ```./Trained_model/``` directory.
 
 
 
