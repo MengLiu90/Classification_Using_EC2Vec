@@ -23,7 +23,7 @@ To execute the classifiers, prepare the data as per the provided instructions an
 
 The Python scripts ```RF_product_EC_classifier.py```, ```RF_reaction_EC_classifier.py```, and ```RF_substrate_EC_classifier.py``` implement respective classifiers using the train/test split protocol.
 
-The Python scripts ```RF_product_EC_classifier_5_fold_cv.py```, ```RF_reaction_EC_classifier_5_fold_cv.py```, and ```RF_substrate_EC_classifier_5_fold_cv.py``` implement respective classifiers using the train/test split protocol.
+The Python scripts ```RF_product_EC_classifier_5_fold_cv.py```, ```RF_reaction_EC_classifier_5_fold_cv.py```, and ```RF_substrate_EC_classifier_5_fold_cv.py``` implement respective classifiers using the 5-fold cross-validation protocol.
 
 Run ```RF_product_EC_classifier_5_fold_cv.py``` to obtain performance metrics for predicting the existence of a product-EC pair.
 
